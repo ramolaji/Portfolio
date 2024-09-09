@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/ayu_logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact </a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>B-Tech (CSE)</p>
+                <h1>Hello, I'm <span>Ayush Ramola</span></h1>
+                <br>
+                <h5>"I am a B.Tech student specializing in Computer Science <br> with a passion for full-stack web development. <br> Currently exploring machine learning applications, <br> I am eager to leverage my skills in real-world projects."</h5>
+                <a href="/images/My_Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/AR_pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p> <b> I am Ayush Ramola. I am from Dhanolti, Uttrakhand. I have completed my primary and secondary education in Delhi via CBSE Board. I am a A self-driven and meticulous B-Tech student skilled at web development, solving problems, cloud computing and proficient in 
+                        English speaking. Seeking opportunities in the field of software development and web development. As far as extra curricular activities and projects are concerned, I have participated in various sports activities and hackathons and won some handful prizes. I have developed many projects using web development and machine learning. Some of my major projects are Multiple disease prediction system, Book recommender system and gym website development. <br> Apart from this, My hobbies are playing cricket, listening to music and solving puzzle problems. All these things help me to enhance my physical and mental skills.Concluding on my area of interest that is to work as software Engineer in a prestigious company.</b></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Programming & Scripting Languages</span><br> C, C++, Java, Javascript, Cloud Computing, Python, Machine Learning, HTML and CSS</li> <br>
+                            <li><span> Tools & Libraries</span><br>OpenCV, ReactJS and AngularJS</li> <br>
+                            <li><span>Operating System</span><br> window and linux</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Studying</span><br>At present, persuing bachelors of technology.</li>
+                            <li><span>Internship</span><br>Web developer | OctaNet <br>Did one month internship and developed Image watermarking system using python libraries</li>
+                            <li><span>Certificates</span><br>Udemy: Web Development & Certification (Josh Werner, Learn Tecc) <br>
+                                Udemy: Introduction to Cloud Computing (Oak Academy, Mehmet Ongel)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education"> 
+                        <ul>
+                            <li><span>Matriculation</span><br>RPVV, Delhi (2019) <br>Score-93.26%</li>
+                            <li><span>Intermediate </span><br>RPVV, Delhi (2019-2021) <br>Score-86.14%</li>
+                            <li><span>Graduation</span><br>Graphic Era Hill University, Dehradun (2021-2025) <br> Score-8.11/10 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Development</h2>
+                    <p>I am a skilled web developer with a strong foundation in HTML, CSS, JavaScript, and frameworks like React and Node.js. I have developed several responsive and interactive web applications, focusing on both front-end and back-end technologies.</p>
+                    <a href="https://github.com/ramolaji">learn more</a>
+                </div>
+                <div>
+                    <h2>Cloud Computing</h2>
+                    <p>I am proficient in cloud computing with hands-on experience in designing and deploying scalable applications on cloud platforms like AWS, Microsoft Azure, and Google Cloud. I specialize in infrastructure as a service (IaaS) and platform as a service (PaaS) solutions, with a focus on automation, security, and cost optimization.</p>
+                    <a href="https://github.com/ramolaji">learn more</a>
+                </div>
+                <div>
+                    <h2>Machine Learning</h2>
+                    <p>I am proficient in machine learning with experience in building predictive models and developing AI solutions. Skilled in supervised and unsupervised learning, I have worked on several projects utilizing libraries like TensorFlow, Scikit-learn, and PyTorch to solve real-world problems across various domains.</p>
+                    <a href="https://github.com/ramolaji">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/multipleDisease.jpg" >
+                    <div class="layer">
+                        <h3><b>Multiple Disease Prediction System</b></h3>
+                        <p> Developed a multiple disease prediction system specifically predicting if someone is suffering from diabetes or heart disease. Python is used to code the datasets and streamlit framework is used to deploy the model as a website. Algorithms used areLogistic regression and Support Vector Machine.</p>
+                        <a href="https://github.com/ramolaji/Multiple-disease-prediction-system">click</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/rod.jpeg" >
+                    <div class="layer">
+                        <h3><b>Gym Website</b></h3>
+                        <p>Developed a gym website showing the features of the gym using the programming languages like html,css, javascript and php.</p>
+                        <a href="https://github.com/ramolaji/Gym-Website-Development">click</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/bookRecommender.jpg" >
+                    <div class="layer">
+                        <h3>Book Recommender System</h3>
+                        <p>Developed a book recommender system with the help of machine learning using collaborative filtering technique which helps the user to select a new book to read as per his previous book records. Python is used to code the dataset and Flask is used to deploy the model along with the languages like HTML, CSS and Javascript. </p>
+                        <a href="https://github.com/ramolaji/Book-recommender-system">click</a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/ramolaji" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <span>Mail :</span> ramolaayush2509@gmail.com</p>
+                    <p> <span>Phone :</span> 91+ 9711975951</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/" >@-instagram</a>
+                        <a href="https://www.linkedin.com/feed/" >&-linkedin</a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your mail" required>
+                        <textarea name="Message" rows="6" placeholder="please write your message here"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="last">
+        <h3>Thank you</h3>
+    </div>
+    
+
+    
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+</body>
+
+</html>
